@@ -3,11 +3,11 @@
 
 int constrain(int number, int min, int max) {
     if(number < min) {
-		return min;
+	return min;
     } else if (number > max) {
-		return max;
+	return max;
     } else {
-		return number;
+	return number;
     }
 }
 
@@ -15,7 +15,7 @@ int check_yes(char *str) {
     int result = 0;
     if(!strcmp(str, "y") || !strcmp(str, "yes")
        || !strcmp(str, "Y") || !strcmp(str, "YES")) {
-		result = 1;
+	result = 1;
     }
     return result;
 }

@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Ofast -Wno-unused-result
+CFLAGS = -Wall -pthread -Ofast -Wno-unused-result
 
 OBJECTS = heldkarp.o helper.o main.o
 
