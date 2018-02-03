@@ -38,5 +38,5 @@ A C implementation of the Held Karp algorithm to solve small TSP instances.
 
 <h2><b>To be Implemented:</b></h2>
 <p>1. Read input matrix from (.cvs)file.
-<br>2. Improving thread management.
-<br>3. Improving UI</p>
+<br>2. Improved thread management.
+<br>3. Improved UI</p>
