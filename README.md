@@ -1,4 +1,4 @@
-# TSP - Held-Karp
+# TSP - Held Karp
 
 A C implementation of the Held Karp algorithm to solve small TSP instances.
 
@@ -7,15 +7,15 @@ A C implementation of the Held Karp algorithm to solve small TSP instances.
 <br>By applying the divide-and-conquer principle, Held Karp calculates the path cost of subsets of increasing length.</p>
 <p>For a more detailed explanation of the algorithm check the
 <a href="https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm">Wikipedia Page</a>.
-<brAlso check the <a href="https://github.com/AwardOfSky/Held-Karp">Java version</a>.</p>
+<br>Also check the <a href="https://github.com/AwardOfSky/Held-Karp">Java version</a>.</p>
 
 <h2><b>Features:</b></h2>
 <p> As of now, the program does not implement any kind of heuristics and will always return the optimal path.</p>
-<p> As it's supposed to be a prove of concept, the matrix of distances is randomly generated before the computation for a given number of cities.
+<p> As it's supposed to be a proof of concept, the matrix of distances is randomly generated before the computation for a given number of cities.
 <p> This implementation makes use of multithreading to compute different iterations over city subsets of a given length.</p>
 
 <h2><b>How to use:</b></h2>
-<p>The project comes with a Linux object (compiled with GCC from the Makefile privided).
+<p>The project comes with a Linux object (compiled with GCC from the Makefile provided).
 <p>Just download the object file, open up a terminal and type
 <code>./heldkarp</code>.</p>
  
